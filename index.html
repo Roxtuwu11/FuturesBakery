@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link  rel="icon"   href="img/un-pan.png" type="image/png" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <title>Futue's Bakery</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        
+        <div class="container">
+            
+            <a href="#" class="navbar-brand ">
+                <img src="img/un-pan.png" width="30" height="30" alt="" loading="lazy">
+                Future's bakery
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menú</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Welcome-->
+    <div class="container" id="gallery">
+        <div class="row">
+            <div class="col-12">           
+                <div id="principal-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#principal-carousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#principal-carousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#principal-carousel" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/veganapan.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pan vegano</h5>
+                                <p>Contamos con pan apto para veganos, no contienen ningun alimento de origen animal ni derivados</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pan al vapor.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pan exotico</h5>
+                                <p>Tenemos pan al vapor de varios sabores, es delicioso</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fondosalu.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pan saludable</h5>
+                                <p>Contamos tambien con pan saludable, evitamos cualquer tipo de azucar añadida, en cambio usamos edulcorantes, manejamos harina de avena y chocolate sin azucar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#principal-carousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#principal-carousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--About us-->
+    <div class="container pt-5" id="about">
+        <div class="row">
+            <div class="col-12 pt-5">
+                <h1 class="text-center">Nosotros</h1>
+            </div>
+        </div>
+        <div class="row pt-2">
+            <div class="col-lg-6 col-sm-12 col-md-6 col-xl-6 ">
+                <img class="img-fluid float-left pt-lg-5" src="img/panaderia.jpg" alt="" >
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-6 col-xl-6 py-5">
+                <h2 class="py-3 text-center">Futue's Bakery</h2>
+                <p class="text-justify">Somos una panadería tradicional que se encuentra en Polanco. Nos esforzamos para que nuestro pan sea de la más alta calidad y el mejor sabor, queremos que nuestros clientes disfruten la experiencia de comer un pan </p>
+                <p class="text-justify">Actualmente decidimos ampliar nuestros servicios y también agregamos un menú especial, que se adapta a todo tipo de gustos; El menu Space, algo fuera de este mundo </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Menu-->
+    <!-- Catálogo -->
+    <div class="container" id="menu">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center py-5">Menú</h1>
+            </div>
+        </div>
+
+        <!-- MENU ESTANDAR -->
+        <div class="row ">
+            <div class="col-12">
+                <h3 class="text-center">Estandar</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center ">
+                <img class="img d-flex justify-content-center icon" src="img/estandar/panaderia.png" alt="">
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="accordion " id="acordeon">
+                <div class="accordion-item">
+                    <h2 class="accordion-header text-center" id="headingOne">
+                        <button class="accordion-button text-center" type="button" data-bs-toggle="collapse" data-bs-target="#estandar" aria-expanded="true" aria-controls="estandar">
+                            Panes de este menú
+                        </button>
+                    </h2>
+                    <div id="estandar" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#acordeon">
+                        <div class="accordion-body">
+
+                            
+                            <div class="row">
+
+                            <!--Beso-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Beso
+                                        </div>
+                                        <img src="img/estandar/beso.jpg" class="img d-flex justify-content-center icon" height="230" width="340">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 20.00 MXM</p>
+                                          </div>
+                                          
+                                    </div>
+                                </div>
+                            
+                            <!--Bigote-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Bigote
+                                        </div>
+                                        <img src="img/estandar/pan bigote.jpg" class="card-img-top img-fluid imagepan">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 17.00 MXM</p>
+                                          </div>
+                                          
+                                    </div>
+                                </div>
+                           
+                            <!--Concha-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Concha
+                                        </div>
+                                        <img src="img/estandar/concha.jpg" class="card-img-top img-fluid imagepan">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 15.00 MXM</p>
+                                          </div>
+                                   
+                                    </div>
+                                </div>
+                            
+                            <!--Cuernito-->
+                           
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Cuernito
+                                        </div>
+                                        <img src="img/estandar/cuernito.jpg" class="img d-flex justify-content-center icon" height="230" width="340">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 15.00 MXM</p>
+                                          </div>
+                                      
+                                    </div>
+                                </div>
+                            
+                            <!--Dona de azucar-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Dona de ázucar
+                                        </div>
+                                        <img src="img/estandar/dona de azucar.jpg" class="img d-flex justify-content-center icon" height="230" width="340">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 15.00 MXM</p>
+                                          </div>
+                                         
+                                    </div>
+                                </div>
+                            
+                            <!--Dona doble chocolate-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Dona doble chocolate
+                                        </div>
+                                        <img src="img/estandar/dona chocolate.jpg" class="img d-flex justify-content-center icon" height="230" width="340">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 25.00 MXM</p>
+                                          </div>
+                                         
+                                    </div>
+                                </div>
+                          
+                            <!--Galletas-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Galletas
+                                        </div>
+                                        <img src="img/estandar/galleta.jpg" class="card-img-top img-fluid imagepan">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 10.00 MXM</p>
+                                          </div>
+                                         
+                                    </div>
+                                </div>
+
+                            <!--Ojaldra-->
+                            
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                <div class="card">
+                                    <div class="card-header text-center">
+                                        Ojaldra
+                                    </div>
+                                    <img src="img/estandar/ojaldra.jpg" class="img d-flex justify-content-center icon" height="230" width="340">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Precio: 17.00 MXM</p>
+                                      </div>
+                                     
+                                </div>
+                            </div>
+
+
+                            <!--Ojo-->
+                            
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                <div class="card">
+                                    <div class="card-header text-center">
+                                        Ojo
+                                    </div>
+                                    <img src="img/estandar/ojo.jpg" class="img d-flex justify-content-center icon" height="230" width="340">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Precio: 15.00 MXM</p>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+
+                            <!--Oreja-->
+                            
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                <div class="card">
+                                    <div class="card-header text-center">
+                                        Oreja
+                                    </div>
+                                    <img src="img/estandar/oreja.jpg" class="img d-flex justify-content-center icon" height="230" width="340">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Precio: 15.00 MXM</p>
+                                      </div>
+                                     
+                                </div>
+                            </div>
+
+                            <!--Rebanada de chocolate-->
+                            
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                <div class="card">
+                                    <div class="card-header text-center">
+                                        Rebanada de chocolate
+                                    </div>
+                                    <img src="img/estandar/rebana chocolate.jpg" class="img d-flex justify-content-center icon" height="230" width="340">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Precio: 20.00 MXM</p>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MENU SPACE-->
+        <div class="row py-3">
+            <div class="col-12">
+                <h3 class="text-center">Space</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center ">
+                <img class="img d-flex justify-content-center icon" src="img/space/space.png " alt="">
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="accordion " id="acordeon">
+                <div class="accordion-item">
+                    <h2 class="accordion-header text-center" id="headingOne">
+                        <button class="accordion-button text-center" type="button" data-bs-toggle="collapse" data-bs-target="#space" aria-expanded="true" aria-controls="space">
+                            Panes de este menú
+                        </button>
+                    </h2>
+                    <div id="space" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#acordeon">
+                        <div class="accordion-body">
+
+                            
+                            <div class="row">
+
+                            <!--Cupcake Star-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Cupcake Star
+                                        </div>
+                                        <img src="img/space/cupcake star.jpg" class="card-img-top img-fluid imagepan">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 30.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white " data-toggle="modal" data-target="#miModal">Ver ingrediente</a>
+                                    </div>
+                                </div>
+                            
+                            <!--Galleta Crater-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Galleta Crater
+                                        </div>
+                                        <img src="img/space/galleta crater.jpg" class="img d-flex justify-content-center icon" height="350" width="340">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 20.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white " data-toggle="modal" data-target="#crater">Ver ingrediente</a>
+                                    </div>
+                                </div>
+                           
+                            <!--Chibi Moon-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Chibi Moon
+                                        </div>
+                                        <img src="img/space/Pa al vapor_43_542x337.jpg" class="img d-flex justify-content-center icon" height="350" width="340">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 25.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white "data-toggle="modal" data-target="#chibi" >Sabores</a>
+                                    </div>
+                                </div>
+                            
+                            <!--Pan Mars-->
+                           
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Pan Mars
+                                        </div>
+                                        <img src="img/space/Pan Mars.jpg" class="card-img-top img-fluid imagepan">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 30.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white " data-toggle="modal" data-target="#mars">Ver ingrediente</a>
+                                    </div>
+                                </div>
+                            
+                            <!--Synonyms-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Carlota asteroide
+                                        </div>
+                                        <img src="img/space/carlota asteroide.jpg" class="img d-flex justify-content-center icon" height="350" width="340">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 30.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white "data-toggle="modal" data-target="#carlota"  >Ver ingrediente</a>
+                                    </div>
+                                </div>
+                            
+                            <!--Pan Moon-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Pan Moon
+                                        </div>
+                                        <img src="img/space/Pan Moon.jpg" class="img d-flex justify-content-center icon" height="350" width="340">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 30.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white "data-toggle="modal" data-target="#moon" >Ver ingrediente</a>
+                                    </div>
+                                </div>
+                          
+                            <!--Pan Jupiter-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Pan Jupiter
+                                        </div>
+                                        <img src="img/space/panque jupiter.jpg" class="img d-flex justify-content-center icon" height="350" width="340">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 25.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white "data-toggle="modal" data-target="#jupiter">Ver ingrediente</a>
+                                    </div>
+                                </div>
+
+                           
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MENU PASTELES -->
+        <div class="row ">
+            <div class="col-12">
+                <h3 class="text-center">Pasteles</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center ">
+                <img class="img d-flex justify-content-center icon" src="img/pasteles/cake.png" alt="" height="40" width="50">
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="accordion " id="acordeon">
+                <div class="accordion-item">
+                    <h2 class="accordion-header text-center" id="headingOne">
+                        <button class="accordion-button text-center" type="button" data-bs-toggle="collapse" data-bs-target="#pasteles" aria-expanded="true" aria-controls="pasteles">
+                            Panes de este menú
+                        </button>
+                    </h2>
+                    <div id="pasteles" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#acordeon">
+                        <div class="accordion-body">
+
+                            
+                            <div class="row">
+
+                            <!--Pink Cake: 5 personas-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Pink Cake para 5 personas
+                                        </div>
+                                        <img src="img/pasteles/pink cake.jpg" class="card-img-top img-fluid imagepan" height="40" width="50">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 120.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white "data-toggle="modal" data-target="#pastel">¿De qué es?</a>
+                                    </div>
+                                </div>
+                            
+                            <!--Pink Cake: 10 personas-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Pink Cake para 10 personas
+                                        </div>
+                                        <img src="img/pasteles/pink cake.jpg" class="card-img-top img-fluid imagepan" height="40" width="50">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 250.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white" data-toggle="modal" data-target="#pastel">¿De qué es?</a>
+                                    </div>
+                                </div>
+                           
+                            <!--Barquillo cake: 5 personas-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Barquillo Cake para 5 personas
+                                        </div>
+                                        <img src="img/pasteles/barquillo.png" class="card-img-top img-fluid imagepan" height="40" width="50">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 150.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white" data-toggle="modal" data-target="#pastel">¿De qué es?</a>
+                                    </div>
+                                </div>
+                            
+                            <!--Barquillo cake: 10 personas-->
+                           
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Barquillo Cake para 10 personas
+                                        </div>
+                                        <img src="img/pasteles/barquillo.png" class="card-img-top img-fluid imagepan" height="40" width="50">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 270.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white"data-toggle="modal" data-target="#pastel">¿De qué es?</a>
+                                    </div>
+                                </div>
+                            
+                            <!--Meteorito Cake: 5 personas-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Meteorito para 5 personas
+                                        </div>
+                                        <img src="img/pasteles/espacial pastel.jpg" class="card-img-top img-fluid imagepan" height="40" width="50">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 170.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white "data-toggle="modal" data-target="#pastel">¿De qué es?</a>
+                                    </div>
+                                </div>
+                            
+                            <!--Meteorito Cake: 5 personas-->
+                            
+                                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Meteorito para 10 personas
+                                        </div>
+                                        <img src="img/pasteles/espacial pastel.jpg" class="card-img-top img-fluid imagepan" height="40" width="50">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">Precio: 290.00 MXM</p>
+                                          </div>
+                                          <a href="#" class="btn btn-info btn-lg btn-block text-white "data-toggle="modal" data-target="#pastel">¿De qué es?</a>
+                                    </div>
+                                </div>
+                          
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--Ingredientes-->
+     <!--Cupcake star-->
+    <div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                
+                <div class="modal-header">
+                    <button type="button" class="close text-left " data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                   
+                </div>
+                <h4 class="modal-title text-center" id="myModalLabel">Cupcake Star</h4>
+                <div class="modal-body">
+                    Como cliente sabemos que estas interesado en que elementos lleva tu pan, y más si te estamos vendiendo uno vegano los ingredientes del Cupcake Star son:
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-primary">Leche de soja</li>
+                        <li class="list-group-item list-group-item-secondary">Harina</li>
+                        <li class="list-group-item list-group-item-success">margarina vegetal </li>
+                        <li class="list-group-item list-group-item-danger">Azucar</li>
+                        <li class="list-group-item list-group-item-warning">Saborizante de vainilla</li>
+                        
+                      </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Pan chibi Moon-->
+    <div class="modal fade" id="chibi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                
+                <div class="modal-header">
+                    <button type="button" class="close text-left " data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                   
+                </div>
+                <h4 class="modal-title text-center" id="myModalLabel">Chibi Moon</h4>
+                <div class="modal-body">
+                    Los sabores que tenemos del pan Chibi Moon son: 
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-primary">Fresa</li>
+                        <li class="list-group-item list-group-item-secondary">Queso con zarzamora</li>
+                        <li class="list-group-item list-group-item-success">Nutella </li>
+                        <li class="list-group-item list-group-item-danger">Matcha</li>
+                        <li class="list-group-item list-group-item-warning">Frijol dulce</li>
+                        <li class="list-group-item list-group-item-warning">nieve de yakult</li>
+                        
+                      </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!--Pan Moon-->
+ <div class="modal fade" id="moon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <button type="button" class="close text-left " data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+               
+            </div>
+            <h4 class="modal-title text-center" id="myModalLabel">Pan Moon</h4>
+            <div class="modal-body">
+                Como cliente sabemos que estas interesado en que elementos lleva tu pan, y más si te estamos vendiendo uno vegano los ingredientes del Pan Moon son: 
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary">Platanos</li>
+                    <li class="list-group-item list-group-item-secondary">Azucar</li>
+                    <li class="list-group-item list-group-item-success">Aceite </li>
+                    <li class="list-group-item list-group-item-danger">Harina</li>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!--Pan Mars-->
+ <div class="modal fade" id="mars" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <button type="button" class="close text-left " data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+               
+            </div>
+            <h4 class="modal-title text-center" id="myModalLabel">Pan Mars</h4>
+            <div class="modal-body">
+                Como cliente sabemos que estas interesado en que elementos lleva tu pan, y más si te estamos vendiendo uno vegano los ingredientes del Pan Mars son: 
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary">Linaza</li>
+                    <li class="list-group-item list-group-item-secondary">Avena</li>
+                    <li class="list-group-item list-group-item-success">Nueces </li>
+                    <li class="list-group-item list-group-item-danger">Aceite de coco</li>
+                    <li class="list-group-item list-group-item-warning">Agua</li>
+                    <li class="list-group-item list-group-item-warning">Miel</li>
+                    
+                  </ul>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+ <!--Pan Jupiter-->
+ <div class="modal fade" id="jupiter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <button type="button" class="close text-left " data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+               
+            </div>
+            <h4 class="modal-title text-center" id="myModalLabel">Pan Jupiter</h4>
+            <div class="modal-body">
+                Como cliente sabemos que estas interesado en que elementos lleva tu pan,  los ingredientes del Pan Jupiter son: 
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary">Huevos</li>
+                    <li class="list-group-item list-group-item-secondary">Harina de avena</li>
+                    <li class="list-group-item list-group-item-success">Nueces </li>
+                    <li class="list-group-item list-group-item-danger">Fruit monk</li>
+                    <li class="list-group-item list-group-item-warning">Cocoa</li>
+                    <li class="list-group-item list-group-item-warning">Leche de almendras</li>
+                    
+                  </ul>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!--Galleta crater-->
+ <div class="modal fade" id="crater" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <button type="button" class="close text-left " data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+               
+            </div>
+            <h4 class="modal-title text-center" id="myModalLabel">Galleta crater</h4>
+            <div class="modal-body">
+                Como cliente sabemos que estas interesado en que elementos lleva lo que consumes,  los ingredientes de la Galleta crater  son: 
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary">Huevos</li>
+                    <li class="list-group-item list-group-item-secondary">Harina de avena</li>
+                    <li class="list-group-item list-group-item-success">Chocolate negro sin azucar </li>
+                    <li class="list-group-item list-group-item-danger">Fruit monk</li>
+                    <li class="list-group-item list-group-item-warning">Leche de almendras</li>
+                    
+                  </ul>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!--Carlota asteroide-->
+ <div class="modal fade" id="carlota" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <button type="button" class="close text-left " data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+               
+            </div>
+            <h4 class="modal-title text-center" id="myModalLabel">Carlota asteroide</h4>
+            <div class="modal-body">
+                Como cliente sabemos que estas interesado en que elementos lleva lo que consumes,  los ingredientes de la Carlota asteroide  son: 
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary">Yogur griego zin azucar</li>
+                    <li class="list-group-item list-group-item-secondary">limon</li>
+                    <li class="list-group-item list-group-item-success">Galletas sin azucar </li>
+                    <li class="list-group-item list-group-item-danger">Fruit monk</li>
+                    <li class="list-group-item list-group-item-warning">Leche de almendras</li>
+                    <li class="list-group-item list-group-item-warning">Café</li>
+                    
+                  </ul>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Pasteles-->
+     <!--Pink cake-->
+     <div class="modal fade" id="pastel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                
+                <div class="modal-header">
+                    <button type="button" class="close text-left " data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                   
+                </div>
+                <h4 class="modal-title text-center" id="myModalLabel">Pastel</h4>
+                <div class="modal-body">
+                    El pan del pastel puede ser de: 
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-primary">Vainilla</li>
+                        <li class="list-group-item list-group-item-secondary">Chocolate</li>
+                        <li class="list-group-item list-group-item-success">Moka</li>
+                        
+                      </ul>
+
+                      Cobertura:
+
+                      <ul class="list-group">
+                        <li class="list-group-item list-group-item-primary">Fondant</li>
+                        <li class="list-group-item list-group-item-secondary">Glaseado</li>
+                        <li class="list-group-item list-group-item-success">Buttercream</li>
+                        
+                      </ul>
+
+                      Relleno:
+
+                      <ul class="list-group">
+                        <li class="list-group-item list-group-item-primary">Merengue suizo</li>
+                        <li class="list-group-item list-group-item-secondary">Crema de queso con mermelada</li>
+                        <li class="list-group-item list-group-item-success">Crema pastelera</li>
+                        <li class="list-group-item list-group-item-success">Caramelo salado</li>
+                        
+                      </ul>
+
+                      Se puede adaptar si quieres que sea vegano o saludable.
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <!--Chatbot-->
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "481483b5-3f01-4c0c-8871-1da55ae3ff13", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "e28401eb-2e33-47f0-b9b9-4d4a182e9e39", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+      </script>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

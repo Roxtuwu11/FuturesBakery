@@ -1,0 +1,15 @@
+.bar {
+    background-color: #4DC4DF;
+}
+.imagepan{
+    max-width:350px;
+    max-height:350px;
+}
+#gallery {
+    padding-top: 3.5rem;
+}
+
+#about {
+    min-height: 86vh;
+    padding-top: 10rem;
+}
